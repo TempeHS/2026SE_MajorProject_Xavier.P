@@ -430,3 +430,406 @@
 2026-06-15 03:28:36,777 127.0.0.1 - - [15/Jun/2026 03:28:36] "POST /csp_report HTTP/1.1" 200 -
 2026-06-15 03:28:36,796 127.0.0.1 - - [15/Jun/2026 03:28:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
 2026-06-15 03:28:36,823 127.0.0.1 - - [15/Jun/2026 03:28:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:36:45,684 127.0.0.1 - - [15/Jun/2026 03:36:45] "GET / HTTP/1.1" 200 -
+2026-06-15 03:36:45,923 127.0.0.1 - - [15/Jun/2026 03:36:45] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:36:45,927 127.0.0.1 - - [15/Jun/2026 03:36:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:36:45,930 127.0.0.1 - - [15/Jun/2026 03:36:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:36:45,933 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/contact","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:36:45,933 127.0.0.1 - - [15/Jun/2026 03:36:45] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:36:46,021 127.0.0.1 - - [15/Jun/2026 03:36:46] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:36:46,044 127.0.0.1 - - [15/Jun/2026 03:36:46] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:36:46,151 127.0.0.1 - - [15/Jun/2026 03:36:46] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:37:59,491 127.0.0.1 - - [15/Jun/2026 03:37:59] "GET /form.html HTTP/1.1" 200 -
+2026-06-15 03:37:59,553 127.0.0.1 - - [15/Jun/2026 03:37:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:37:59,557 127.0.0.1 - - [15/Jun/2026 03:37:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:37:59,607 127.0.0.1 - - [15/Jun/2026 03:37:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:37:59,641 127.0.0.1 - - [15/Jun/2026 03:37:59] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:37:59,671 127.0.0.1 - - [15/Jun/2026 03:37:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:38:01,385 127.0.0.1 - - [15/Jun/2026 03:38:01] "GET / HTTP/1.1" 200 -
+2026-06-15 03:38:01,428 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/contact","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:38:01,428 127.0.0.1 - - [15/Jun/2026 03:38:01] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:38:59,324 127.0.0.1 - - [15/Jun/2026 03:38:59] "GET / HTTP/1.1" 200 -
+2026-06-15 03:38:59,368 127.0.0.1 - - [15/Jun/2026 03:38:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:38:59,371 127.0.0.1 - - [15/Jun/2026 03:38:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:38:59,373 127.0.0.1 - - [15/Jun/2026 03:38:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:38:59,389 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/contact","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:38:59,389 127.0.0.1 - - [15/Jun/2026 03:38:59] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:38:59,402 127.0.0.1 - - [15/Jun/2026 03:38:59] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:38:59,421 127.0.0.1 - - [15/Jun/2026 03:38:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:38:59,475 127.0.0.1 - - [15/Jun/2026 03:38:59] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:39:38,442 127.0.0.1 - - [15/Jun/2026 03:39:38] "GET / HTTP/1.1" 200 -
+2026-06-15 03:39:38,493 127.0.0.1 - - [15/Jun/2026 03:39:38] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:39:38,497 127.0.0.1 - - [15/Jun/2026 03:39:38] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:39:38,500 127.0.0.1 - - [15/Jun/2026 03:39:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:39:38,513 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/contact","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:39:38,513 127.0.0.1 - - [15/Jun/2026 03:39:38] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:39:38,532 127.0.0.1 - - [15/Jun/2026 03:39:38] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:39:38,555 127.0.0.1 - - [15/Jun/2026 03:39:38] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:39:38,603 127.0.0.1 - - [15/Jun/2026 03:39:38] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:39:54,303 127.0.0.1 - - [15/Jun/2026 03:39:54] "GET / HTTP/1.1" 200 -
+2026-06-15 03:39:54,351 127.0.0.1 - - [15/Jun/2026 03:39:54] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:39:54,353 127.0.0.1 - - [15/Jun/2026 03:39:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:39:54,356 127.0.0.1 - - [15/Jun/2026 03:39:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:39:54,359 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/contact","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:39:54,359 127.0.0.1 - - [15/Jun/2026 03:39:54] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:39:54,395 127.0.0.1 - - [15/Jun/2026 03:39:54] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:39:54,416 127.0.0.1 - - [15/Jun/2026 03:39:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:39:54,466 127.0.0.1 - - [15/Jun/2026 03:39:54] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:40:11,376 127.0.0.1 - - [15/Jun/2026 03:40:11] "GET /form.html HTTP/1.1" 200 -
+2026-06-15 03:40:11,423 127.0.0.1 - - [15/Jun/2026 03:40:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:40:11,426 127.0.0.1 - - [15/Jun/2026 03:40:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:40:11,428 127.0.0.1 - - [15/Jun/2026 03:40:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:40:11,451 127.0.0.1 - - [15/Jun/2026 03:40:11] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:40:11,473 127.0.0.1 - - [15/Jun/2026 03:40:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:40:16,809 127.0.0.1 - - [15/Jun/2026 03:40:16] "GET /form.html HTTP/1.1" 200 -
+2026-06-15 03:40:16,856 127.0.0.1 - - [15/Jun/2026 03:40:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:40:16,858 127.0.0.1 - - [15/Jun/2026 03:40:16] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:40:16,861 127.0.0.1 - - [15/Jun/2026 03:40:16] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:40:16,885 127.0.0.1 - - [15/Jun/2026 03:40:16] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:40:16,906 127.0.0.1 - - [15/Jun/2026 03:40:16] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:40:26,628 127.0.0.1 - - [15/Jun/2026 03:40:26] "GET /about HTTP/1.1" 200 -
+2026-06-15 03:40:26,673 127.0.0.1 - - [15/Jun/2026 03:40:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:40:26,675 127.0.0.1 - - [15/Jun/2026 03:40:26] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:40:26,678 127.0.0.1 - - [15/Jun/2026 03:40:26] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:40:26,707 127.0.0.1 - - [15/Jun/2026 03:40:26] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:40:26,727 127.0.0.1 - - [15/Jun/2026 03:40:26] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:40:59,556 127.0.0.1 - - [15/Jun/2026 03:40:59] "GET /about HTTP/1.1" 200 -
+2026-06-15 03:40:59,603 127.0.0.1 - - [15/Jun/2026 03:40:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:40:59,606 127.0.0.1 - - [15/Jun/2026 03:40:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:40:59,608 127.0.0.1 - - [15/Jun/2026 03:40:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:40:59,639 127.0.0.1 - - [15/Jun/2026 03:40:59] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:40:59,663 127.0.0.1 - - [15/Jun/2026 03:40:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:40:59,715 127.0.0.1 - - [15/Jun/2026 03:40:59] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:42:34,006 127.0.0.1 - - [15/Jun/2026 03:42:34] "GET /about HTTP/1.1" 200 -
+2026-06-15 03:42:34,060 127.0.0.1 - - [15/Jun/2026 03:42:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:42:34,155 127.0.0.1 - - [15/Jun/2026 03:42:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:42:34,167 127.0.0.1 - - [15/Jun/2026 03:42:34] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:42:34,256 127.0.0.1 - - [15/Jun/2026 03:42:34] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:42:34,281 127.0.0.1 - - [15/Jun/2026 03:42:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:42:34,335 127.0.0.1 - - [15/Jun/2026 03:42:34] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:45:12,954 127.0.0.1 - - [15/Jun/2026 03:45:12] "GET /about HTTP/1.1" 200 -
+2026-06-15 03:45:13,125 127.0.0.1 - - [15/Jun/2026 03:45:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:45:13,139 127.0.0.1 - - [15/Jun/2026 03:45:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:45:13,146 127.0.0.1 - - [15/Jun/2026 03:45:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:45:13,269 127.0.0.1 - - [15/Jun/2026 03:45:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:45:13,354 127.0.0.1 - - [15/Jun/2026 03:45:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:45:13,411 127.0.0.1 - - [15/Jun/2026 03:45:13] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:45:14,193 127.0.0.1 - - [15/Jun/2026 03:45:14] "GET / HTTP/1.1" 200 -
+2026-06-15 03:45:14,234 127.0.0.1 - - [15/Jun/2026 03:45:14] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:45:14,237 127.0.0.1 - - [15/Jun/2026 03:45:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:45:14,240 127.0.0.1 - - [15/Jun/2026 03:45:14] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:45:14,259 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:45:14,259 127.0.0.1 - - [15/Jun/2026 03:45:14] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:45:14,276 127.0.0.1 - - [15/Jun/2026 03:45:14] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:45:14,297 127.0.0.1 - - [15/Jun/2026 03:45:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:45:15,244 127.0.0.1 - - [15/Jun/2026 03:45:15] "GET / HTTP/1.1" 200 -
+2026-06-15 03:45:15,288 127.0.0.1 - - [15/Jun/2026 03:45:15] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:45:15,291 127.0.0.1 - - [15/Jun/2026 03:45:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:45:15,294 127.0.0.1 - - [15/Jun/2026 03:45:15] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:45:15,311 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:45:15,312 127.0.0.1 - - [15/Jun/2026 03:45:15] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:45:15,324 127.0.0.1 - - [15/Jun/2026 03:45:15] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:45:15,344 127.0.0.1 - - [15/Jun/2026 03:45:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:45:15,397 127.0.0.1 - - [15/Jun/2026 03:45:15] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:48:16,110 127.0.0.1 - - [15/Jun/2026 03:48:16] "GET / HTTP/1.1" 200 -
+2026-06-15 03:48:16,299 127.0.0.1 - - [15/Jun/2026 03:48:16] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-15 03:48:16,344 127.0.0.1 - - [15/Jun/2026 03:48:16] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:48:16,347 127.0.0.1 - - [15/Jun/2026 03:48:16] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:48:16,384 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:48:16,384 127.0.0.1 - - [15/Jun/2026 03:48:16] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:48:16,447 127.0.0.1 - - [15/Jun/2026 03:48:16] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:48:16,478 127.0.0.1 - - [15/Jun/2026 03:48:16] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:48:16,557 127.0.0.1 - - [15/Jun/2026 03:48:16] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:48:35,680 127.0.0.1 - - [15/Jun/2026 03:48:35] "GET / HTTP/1.1" 200 -
+2026-06-15 03:48:35,730 127.0.0.1 - - [15/Jun/2026 03:48:35] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-15 03:48:35,735 127.0.0.1 - - [15/Jun/2026 03:48:35] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:48:35,738 127.0.0.1 - - [15/Jun/2026 03:48:35] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:48:35,752 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:48:35,752 127.0.0.1 - - [15/Jun/2026 03:48:35] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:48:35,767 127.0.0.1 - - [15/Jun/2026 03:48:35] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:48:35,789 127.0.0.1 - - [15/Jun/2026 03:48:35] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:48:35,840 127.0.0.1 - - [15/Jun/2026 03:48:35] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:50:22,951 127.0.0.1 - - [15/Jun/2026 03:50:22] "GET / HTTP/1.1" 200 -
+2026-06-15 03:50:22,999 127.0.0.1 - - [15/Jun/2026 03:50:22] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-15 03:50:23,118 127.0.0.1 - - [15/Jun/2026 03:50:23] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:50:23,120 127.0.0.1 - - [15/Jun/2026 03:50:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:50:23,136 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:50:23,136 127.0.0.1 - - [15/Jun/2026 03:50:23] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:50:23,245 127.0.0.1 - - [15/Jun/2026 03:50:23] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:50:23,270 127.0.0.1 - - [15/Jun/2026 03:50:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:50:23,319 127.0.0.1 - - [15/Jun/2026 03:50:23] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:50:56,834 127.0.0.1 - - [15/Jun/2026 03:50:56] "GET / HTTP/1.1" 200 -
+2026-06-15 03:50:56,885 127.0.0.1 - - [15/Jun/2026 03:50:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:50:56,890 127.0.0.1 - - [15/Jun/2026 03:50:56] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:50:56,893 127.0.0.1 - - [15/Jun/2026 03:50:56] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-15 03:50:56,897 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:50:56,897 127.0.0.1 - - [15/Jun/2026 03:50:56] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:50:56,925 127.0.0.1 - - [15/Jun/2026 03:50:56] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:50:56,946 127.0.0.1 - - [15/Jun/2026 03:50:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:50:56,998 127.0.0.1 - - [15/Jun/2026 03:50:56] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:52:38,450 127.0.0.1 - - [15/Jun/2026 03:52:38] "GET / HTTP/1.1" 200 -
+2026-06-15 03:52:38,645 127.0.0.1 - - [15/Jun/2026 03:52:38] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:52:38,648 127.0.0.1 - - [15/Jun/2026 03:52:38] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-15 03:52:38,654 127.0.0.1 - - [15/Jun/2026 03:52:38] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:52:38,666 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:52:38,666 127.0.0.1 - - [15/Jun/2026 03:52:38] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:52:38,688 127.0.0.1 - - [15/Jun/2026 03:52:38] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:52:38,708 127.0.0.1 - - [15/Jun/2026 03:52:38] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:52:38,758 127.0.0.1 - - [15/Jun/2026 03:52:38] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:53:27,003 127.0.0.1 - - [15/Jun/2026 03:53:27] "GET / HTTP/1.1" 200 -
+2026-06-15 03:53:27,051 127.0.0.1 - - [15/Jun/2026 03:53:27] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:53:27,054 127.0.0.1 - - [15/Jun/2026 03:53:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:53:27,057 127.0.0.1 - - [15/Jun/2026 03:53:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:53:27,067 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:53:27,068 127.0.0.1 - - [15/Jun/2026 03:53:27] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:53:27,102 127.0.0.1 - - [15/Jun/2026 03:53:27] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:53:27,123 127.0.0.1 - - [15/Jun/2026 03:53:27] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:53:27,172 127.0.0.1 - - [15/Jun/2026 03:53:27] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:54:25,949 127.0.0.1 - - [15/Jun/2026 03:54:25] "GET / HTTP/1.1" 200 -
+2026-06-15 03:54:25,994 127.0.0.1 - - [15/Jun/2026 03:54:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:54:26,000 127.0.0.1 - - [15/Jun/2026 03:54:26] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:54:26,003 127.0.0.1 - - [15/Jun/2026 03:54:26] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:54:26,012 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:54:26,012 127.0.0.1 - - [15/Jun/2026 03:54:26] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:54:26,037 127.0.0.1 - - [15/Jun/2026 03:54:26] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:54:26,057 127.0.0.1 - - [15/Jun/2026 03:54:26] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:54:26,106 127.0.0.1 - - [15/Jun/2026 03:54:26] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:55:33,808 127.0.0.1 - - [15/Jun/2026 03:55:33] "GET / HTTP/1.1" 200 -
+2026-06-15 03:55:33,851 127.0.0.1 - - [15/Jun/2026 03:55:33] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-15 03:55:33,854 127.0.0.1 - - [15/Jun/2026 03:55:33] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:55:33,857 127.0.0.1 - - [15/Jun/2026 03:55:33] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:55:33,882 127.0.0.1 - - [15/Jun/2026 03:55:33] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:55:33,892 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:55:33,892 127.0.0.1 - - [15/Jun/2026 03:55:33] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:55:33,909 127.0.0.1 - - [15/Jun/2026 03:55:33] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:55:33,960 127.0.0.1 - - [15/Jun/2026 03:55:33] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:55:50,496 127.0.0.1 - - [15/Jun/2026 03:55:50] "GET / HTTP/1.1" 200 -
+2026-06-15 03:55:50,542 127.0.0.1 - - [15/Jun/2026 03:55:50] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:55:50,545 127.0.0.1 - - [15/Jun/2026 03:55:50] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:55:50,548 127.0.0.1 - - [15/Jun/2026 03:55:50] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-15 03:55:50,565 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:55:50,565 127.0.0.1 - - [15/Jun/2026 03:55:50] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:55:50,581 127.0.0.1 - - [15/Jun/2026 03:55:50] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:55:50,602 127.0.0.1 - - [15/Jun/2026 03:55:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:55:50,657 127.0.0.1 - - [15/Jun/2026 03:55:50] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:55:51,278 127.0.0.1 - - [15/Jun/2026 03:55:51] "GET / HTTP/1.1" 200 -
+2026-06-15 03:55:51,323 127.0.0.1 - - [15/Jun/2026 03:55:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:55:51,329 127.0.0.1 - - [15/Jun/2026 03:55:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:55:51,332 127.0.0.1 - - [15/Jun/2026 03:55:51] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:55:51,338 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:55:51,338 127.0.0.1 - - [15/Jun/2026 03:55:51] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:55:51,359 127.0.0.1 - - [15/Jun/2026 03:55:51] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:55:51,379 127.0.0.1 - - [15/Jun/2026 03:55:51] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:55:51,424 127.0.0.1 - - [15/Jun/2026 03:55:51] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:55:51,983 127.0.0.1 - - [15/Jun/2026 03:55:51] "GET / HTTP/1.1" 200 -
+2026-06-15 03:55:52,028 127.0.0.1 - - [15/Jun/2026 03:55:52] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:55:52,031 127.0.0.1 - - [15/Jun/2026 03:55:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:55:52,034 127.0.0.1 - - [15/Jun/2026 03:55:52] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:55:52,037 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:55:52,037 127.0.0.1 - - [15/Jun/2026 03:55:52] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:55:52,064 127.0.0.1 - - [15/Jun/2026 03:55:52] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:55:52,087 127.0.0.1 - - [15/Jun/2026 03:55:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:55:52,146 127.0.0.1 - - [15/Jun/2026 03:55:52] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:57:01,095 127.0.0.1 - - [15/Jun/2026 03:57:01] "GET / HTTP/1.1" 200 -
+2026-06-15 03:57:01,153 127.0.0.1 - - [15/Jun/2026 03:57:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-15 03:57:01,173 127.0.0.1 - - [15/Jun/2026 03:57:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:57:01,192 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:57:01,192 127.0.0.1 - - [15/Jun/2026 03:57:01] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:57:01,224 127.0.0.1 - - [15/Jun/2026 03:57:01] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:01,247 127.0.0.1 - - [15/Jun/2026 03:57:01] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:01,268 127.0.0.1 - - [15/Jun/2026 03:57:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:01,322 127.0.0.1 - - [15/Jun/2026 03:57:01] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:57:20,321 127.0.0.1 - - [15/Jun/2026 03:57:20] "GET / HTTP/1.1" 200 -
+2026-06-15 03:57:20,366 127.0.0.1 - - [15/Jun/2026 03:57:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-15 03:57:20,369 127.0.0.1 - - [15/Jun/2026 03:57:20] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:57:20,372 127.0.0.1 - - [15/Jun/2026 03:57:20] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:20,387 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:57:20,387 127.0.0.1 - - [15/Jun/2026 03:57:20] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:57:20,402 127.0.0.1 - - [15/Jun/2026 03:57:20] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:20,422 127.0.0.1 - - [15/Jun/2026 03:57:20] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:20,472 127.0.0.1 - - [15/Jun/2026 03:57:20] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:57:21,206 127.0.0.1 - - [15/Jun/2026 03:57:21] "GET / HTTP/1.1" 200 -
+2026-06-15 03:57:21,251 127.0.0.1 - - [15/Jun/2026 03:57:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:57:21,253 127.0.0.1 - - [15/Jun/2026 03:57:21] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:57:21,255 127.0.0.1 - - [15/Jun/2026 03:57:21] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:21,276 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:57:21,276 127.0.0.1 - - [15/Jun/2026 03:57:21] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:57:21,287 127.0.0.1 - - [15/Jun/2026 03:57:21] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:21,307 127.0.0.1 - - [15/Jun/2026 03:57:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:21,358 127.0.0.1 - - [15/Jun/2026 03:57:21] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:57:26,378 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.67:5000
+2026-06-15 03:57:26,378 [33mPress CTRL+C to quit[0m
+2026-06-15 03:57:26,379  * Restarting with stat
+2026-06-15 03:57:26,738  * Debugger is active!
+2026-06-15 03:57:26,739  * Debugger PIN: 737-370-721
+2026-06-15 03:57:29,407 127.0.0.1 - - [15/Jun/2026 03:57:29] "GET /about HTTP/1.1" 200 -
+2026-06-15 03:57:29,469 127.0.0.1 - - [15/Jun/2026 03:57:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:57:29,470 127.0.0.1 - - [15/Jun/2026 03:57:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:57:29,470 127.0.0.1 - - [15/Jun/2026 03:57:29] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:29,506 127.0.0.1 - - [15/Jun/2026 03:57:29] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:29,526 127.0.0.1 - - [15/Jun/2026 03:57:29] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:31,432 127.0.0.1 - - [15/Jun/2026 03:57:31] "GET / HTTP/1.1" 200 -
+2026-06-15 03:57:31,486 127.0.0.1 - - [15/Jun/2026 03:57:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:57:31,491 127.0.0.1 - - [15/Jun/2026 03:57:31] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:57:31,493 127.0.0.1 - - [15/Jun/2026 03:57:31] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:31,503 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:57:31,503 127.0.0.1 - - [15/Jun/2026 03:57:31] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:57:31,525 127.0.0.1 - - [15/Jun/2026 03:57:31] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:31,546 127.0.0.1 - - [15/Jun/2026 03:57:31] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:31,596 127.0.0.1 - - [15/Jun/2026 03:57:31] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:57:32,101 127.0.0.1 - - [15/Jun/2026 03:57:32] "GET / HTTP/1.1" 200 -
+2026-06-15 03:57:32,147 127.0.0.1 - - [15/Jun/2026 03:57:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:57:32,151 127.0.0.1 - - [15/Jun/2026 03:57:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:57:32,154 127.0.0.1 - - [15/Jun/2026 03:57:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:32,157 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:57:32,157 127.0.0.1 - - [15/Jun/2026 03:57:32] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:57:32,187 127.0.0.1 - - [15/Jun/2026 03:57:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:32,207 127.0.0.1 - - [15/Jun/2026 03:57:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:32,253 127.0.0.1 - - [15/Jun/2026 03:57:32] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:57:32,652 127.0.0.1 - - [15/Jun/2026 03:57:32] "GET / HTTP/1.1" 200 -
+2026-06-15 03:57:32,702 127.0.0.1 - - [15/Jun/2026 03:57:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:57:32,704 127.0.0.1 - - [15/Jun/2026 03:57:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:32,707 127.0.0.1 - - [15/Jun/2026 03:57:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:57:32,710 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:57:32,710 127.0.0.1 - - [15/Jun/2026 03:57:32] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:57:32,742 127.0.0.1 - - [15/Jun/2026 03:57:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:32,765 127.0.0.1 - - [15/Jun/2026 03:57:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:32,815 127.0.0.1 - - [15/Jun/2026 03:57:32] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:57:32,842 127.0.0.1 - - [15/Jun/2026 03:57:32] "GET / HTTP/1.1" 200 -
+2026-06-15 03:57:32,887 127.0.0.1 - - [15/Jun/2026 03:57:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:57:32,891 127.0.0.1 - - [15/Jun/2026 03:57:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:57:32,894 127.0.0.1 - - [15/Jun/2026 03:57:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:32,899 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:57:32,899 127.0.0.1 - - [15/Jun/2026 03:57:32] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:57:32,921 127.0.0.1 - - [15/Jun/2026 03:57:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:32,942 127.0.0.1 - - [15/Jun/2026 03:57:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:32,988 127.0.0.1 - - [15/Jun/2026 03:57:32] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:57:33,052 127.0.0.1 - - [15/Jun/2026 03:57:33] "GET / HTTP/1.1" 200 -
+2026-06-15 03:57:33,099 127.0.0.1 - - [15/Jun/2026 03:57:33] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:57:33,100 127.0.0.1 - - [15/Jun/2026 03:57:33] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:33,103 127.0.0.1 - - [15/Jun/2026 03:57:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:57:33,125 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:57:33,125 127.0.0.1 - - [15/Jun/2026 03:57:33] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:57:33,135 127.0.0.1 - - [15/Jun/2026 03:57:33] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:33,157 127.0.0.1 - - [15/Jun/2026 03:57:33] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:57:33,201 127.0.0.1 - - [15/Jun/2026 03:57:33] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:58:24,300 127.0.0.1 - - [15/Jun/2026 03:58:24] "GET / HTTP/1.1" 200 -
+2026-06-15 03:58:24,365 127.0.0.1 - - [15/Jun/2026 03:58:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-15 03:58:24,366 127.0.0.1 - - [15/Jun/2026 03:58:24] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:58:24,372 127.0.0.1 - - [15/Jun/2026 03:58:24] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:58:24,374 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:58:24,374 127.0.0.1 - - [15/Jun/2026 03:58:24] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:58:24,417 127.0.0.1 - - [15/Jun/2026 03:58:24] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:58:24,440 127.0.0.1 - - [15/Jun/2026 03:58:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:58:24,488 127.0.0.1 - - [15/Jun/2026 03:58:24] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:59:27,610 127.0.0.1 - - [15/Jun/2026 03:59:27] "GET / HTTP/1.1" 200 -
+2026-06-15 03:59:27,659 127.0.0.1 - - [15/Jun/2026 03:59:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:59:27,664 127.0.0.1 - - [15/Jun/2026 03:59:27] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:59:27,665 127.0.0.1 - - [15/Jun/2026 03:59:27] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-15 03:59:27,672 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:59:27,672 127.0.0.1 - - [15/Jun/2026 03:59:27] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:59:27,691 127.0.0.1 - - [15/Jun/2026 03:59:27] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:59:27,709 127.0.0.1 - - [15/Jun/2026 03:59:27] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:59:27,757 127.0.0.1 - - [15/Jun/2026 03:59:27] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:59:47,385 127.0.0.1 - - [15/Jun/2026 03:59:47] "GET / HTTP/1.1" 200 -
+2026-06-15 03:59:47,427 127.0.0.1 - - [15/Jun/2026 03:59:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:59:47,431 127.0.0.1 - - [15/Jun/2026 03:59:47] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-15 03:59:47,433 127.0.0.1 - - [15/Jun/2026 03:59:47] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:59:47,444 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:59:47,445 127.0.0.1 - - [15/Jun/2026 03:59:47] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:59:47,459 127.0.0.1 - - [15/Jun/2026 03:59:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:59:47,485 127.0.0.1 - - [15/Jun/2026 03:59:47] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:59:47,534 127.0.0.1 - - [15/Jun/2026 03:59:47] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:59:48,337 127.0.0.1 - - [15/Jun/2026 03:59:48] "GET / HTTP/1.1" 200 -
+2026-06-15 03:59:48,388 127.0.0.1 - - [15/Jun/2026 03:59:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:59:48,390 127.0.0.1 - - [15/Jun/2026 03:59:48] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:59:48,392 127.0.0.1 - - [15/Jun/2026 03:59:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:59:48,394 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:59:48,395 127.0.0.1 - - [15/Jun/2026 03:59:48] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:59:48,418 127.0.0.1 - - [15/Jun/2026 03:59:48] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:59:48,438 127.0.0.1 - - [15/Jun/2026 03:59:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:59:48,486 127.0.0.1 - - [15/Jun/2026 03:59:48] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 03:59:49,024 127.0.0.1 - - [15/Jun/2026 03:59:49] "GET / HTTP/1.1" 200 -
+2026-06-15 03:59:49,071 127.0.0.1 - - [15/Jun/2026 03:59:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 03:59:49,073 127.0.0.1 - - [15/Jun/2026 03:59:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 03:59:49,075 127.0.0.1 - - [15/Jun/2026 03:59:49] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 03:59:49,093 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 03:59:49,093 127.0.0.1 - - [15/Jun/2026 03:59:49] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 03:59:49,112 127.0.0.1 - - [15/Jun/2026 03:59:49] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 03:59:49,134 127.0.0.1 - - [15/Jun/2026 03:59:49] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 03:59:49,186 127.0.0.1 - - [15/Jun/2026 03:59:49] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 04:00:17,848 127.0.0.1 - - [15/Jun/2026 04:00:17] "GET / HTTP/1.1" 200 -
+2026-06-15 04:00:17,900 127.0.0.1 - - [15/Jun/2026 04:00:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 04:00:17,901 127.0.0.1 - - [15/Jun/2026 04:00:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 04:00:17,906 127.0.0.1 - - [15/Jun/2026 04:00:17] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-15 04:00:17,915 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 04:00:17,915 127.0.0.1 - - [15/Jun/2026 04:00:17] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 04:00:17,937 127.0.0.1 - - [15/Jun/2026 04:00:17] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 04:00:17,956 127.0.0.1 - - [15/Jun/2026 04:00:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 04:00:18,016 127.0.0.1 - - [15/Jun/2026 04:00:18] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 04:00:18,617 127.0.0.1 - - [15/Jun/2026 04:00:18] "GET / HTTP/1.1" 200 -
+2026-06-15 04:00:18,662 127.0.0.1 - - [15/Jun/2026 04:00:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 04:00:18,665 127.0.0.1 - - [15/Jun/2026 04:00:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 04:00:18,669 127.0.0.1 - - [15/Jun/2026 04:00:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 04:00:18,676 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 04:00:18,677 127.0.0.1 - - [15/Jun/2026 04:00:18] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 04:00:18,696 127.0.0.1 - - [15/Jun/2026 04:00:18] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 04:00:18,717 127.0.0.1 - - [15/Jun/2026 04:00:18] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 04:00:18,767 127.0.0.1 - - [15/Jun/2026 04:00:18] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 04:01:09,381 127.0.0.1 - - [15/Jun/2026 04:01:09] "GET / HTTP/1.1" 200 -
+2026-06-15 04:01:09,422 127.0.0.1 - - [15/Jun/2026 04:01:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 04:01:09,435 127.0.0.1 - - [15/Jun/2026 04:01:09] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 04:01:09,441 127.0.0.1 - - [15/Jun/2026 04:01:09] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 04:01:09,447 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 04:01:09,447 127.0.0.1 - - [15/Jun/2026 04:01:09] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 04:01:09,468 127.0.0.1 - - [15/Jun/2026 04:01:09] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 04:01:09,492 127.0.0.1 - - [15/Jun/2026 04:01:09] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 04:01:09,546 127.0.0.1 - - [15/Jun/2026 04:01:09] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 04:01:43,069 127.0.0.1 - - [15/Jun/2026 04:01:43] "GET / HTTP/1.1" 200 -
+2026-06-15 04:01:43,119 127.0.0.1 - - [15/Jun/2026 04:01:43] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 04:01:43,123 127.0.0.1 - - [15/Jun/2026 04:01:43] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 04:01:43,124 127.0.0.1 - - [15/Jun/2026 04:01:43] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-15 04:01:43,127 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 04:01:43,127 127.0.0.1 - - [15/Jun/2026 04:01:43] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 04:01:43,174 127.0.0.1 - - [15/Jun/2026 04:01:43] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 04:01:43,201 127.0.0.1 - - [15/Jun/2026 04:01:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 04:01:43,251 127.0.0.1 - - [15/Jun/2026 04:01:43] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 04:02:09,365 127.0.0.1 - - [15/Jun/2026 04:02:09] "GET / HTTP/1.1" 200 -
+2026-06-15 04:02:09,419 127.0.0.1 - - [15/Jun/2026 04:02:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-15 04:02:09,423 127.0.0.1 - - [15/Jun/2026 04:02:09] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 04:02:09,425 127.0.0.1 - - [15/Jun/2026 04:02:09] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 04:02:09,431 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 04:02:09,431 127.0.0.1 - - [15/Jun/2026 04:02:09] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 04:02:09,454 127.0.0.1 - - [15/Jun/2026 04:02:09] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 04:02:09,472 127.0.0.1 - - [15/Jun/2026 04:02:09] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 04:02:09,523 127.0.0.1 - - [15/Jun/2026 04:02:09] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 04:02:31,349 127.0.0.1 - - [15/Jun/2026 04:02:31] "GET / HTTP/1.1" 200 -
+2026-06-15 04:02:31,407 127.0.0.1 - - [15/Jun/2026 04:02:31] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 04:02:31,413 127.0.0.1 - - [15/Jun/2026 04:02:31] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-15 04:02:31,418 127.0.0.1 - - [15/Jun/2026 04:02:31] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 04:02:31,424 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 04:02:31,424 127.0.0.1 - - [15/Jun/2026 04:02:31] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 04:02:31,449 127.0.0.1 - - [15/Jun/2026 04:02:31] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 04:02:31,469 127.0.0.1 - - [15/Jun/2026 04:02:31] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 04:02:31,524 127.0.0.1 - - [15/Jun/2026 04:02:31] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 04:13:26,995 127.0.0.1 - - [15/Jun/2026 04:13:26] "GET / HTTP/1.1" 200 -
+2026-06-15 04:13:27,197 127.0.0.1 - - [15/Jun/2026 04:13:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 04:13:27,202 127.0.0.1 - - [15/Jun/2026 04:13:27] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 04:13:27,205 127.0.0.1 - - [15/Jun/2026 04:13:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 04:13:27,223 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 04:13:27,223 127.0.0.1 - - [15/Jun/2026 04:13:27] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 04:13:27,299 127.0.0.1 - - [15/Jun/2026 04:13:27] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 04:13:27,323 127.0.0.1 - - [15/Jun/2026 04:13:27] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 04:13:27,381 127.0.0.1 - - [15/Jun/2026 04:13:27] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-15 04:14:11,736 127.0.0.1 - - [15/Jun/2026 04:14:11] "GET / HTTP/1.1" 200 -
+2026-06-15 04:14:11,790 127.0.0.1 - - [15/Jun/2026 04:14:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-15 04:14:11,796 127.0.0.1 - - [15/Jun/2026 04:14:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 04:14:11,802 127.0.0.1 - - [15/Jun/2026 04:14:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-15 04:14:11,806 {"csp-report":{"document-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/","referrer":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/about","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glowing-waddle-56674w6jgq52rvq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-15 04:14:11,806 127.0.0.1 - - [15/Jun/2026 04:14:11] "POST /csp_report HTTP/1.1" 200 -
+2026-06-15 04:14:11,828 127.0.0.1 - - [15/Jun/2026 04:14:11] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-15 04:14:11,848 127.0.0.1 - - [15/Jun/2026 04:14:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-15 04:14:11,909 127.0.0.1 - - [15/Jun/2026 04:14:11] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
