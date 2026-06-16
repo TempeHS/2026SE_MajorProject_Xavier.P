@@ -38,7 +38,9 @@
     aria-labelledby="nnModalLabel"
     aria-hidden="true"
   >
-    <div class="modal-dialog modal-fullscreen-md-down modal-xl">
+    <div
+      class="modal-dialog modal-fullscreen-md-down modal-xl modal-dialog-scrollable"
+    >
       <div class="modal-content">
         <div class="modal-header">
           <h1 class="modal-title fs-5" id="nnModalLabel">
@@ -52,7 +54,7 @@
           ></button>
         </div>
 
-        <div class="modal-body p-0">
+        <div class="modal-body p-0 overflow-y-auto">
           <!-- SVG canvas -->
           <div class="bg-body-secondary p-2" style="overflow-x: auto">
             <svg
@@ -69,7 +71,7 @@
                 <h6 class="fw-semibold">Network Shape</h6>
                 <div class="mb-2">
                   <label class="form-label d-flex justify-content-between">
-                    Inputs <code id="num-inputs-val">2</code>
+                    Inputs <code id="num-inputs-val">1</code>
                   </label>
                   <input
                     type="range"
@@ -78,12 +80,12 @@
                     min="1"
                     max="6"
                     step="1"
-                    value="2"
+                    value="1"
                   />
                 </div>
                 <div class="mb-2">
                   <label class="form-label d-flex justify-content-between">
-                    Hidden layers <code id="hidden-layers-val">1</code>
+                    Hidden layers <code id="hidden-layers-val">2</code>
                   </label>
                   <input
                     type="range"
@@ -92,10 +94,10 @@
                     min="1"
                     max="4"
                     step="1"
-                    value="1"
+                    value="2"
                   />
                 </div>
-                <div class="mb-3">
+                <div class="mb-2">
                   <label class="form-label d-flex justify-content-between">
                     Nodes per hidden layer <code id="hidden-nodes-val">3</code>
                   </label>
@@ -107,6 +109,20 @@
                     max="6"
                     step="1"
                     value="3"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label d-flex justify-content-between">
+                    Outputs <code id="num-outputs-val">1</code>
+                  </label>
+                  <input
+                    type="range"
+                    class="form-range"
+                    id="num-outputs"
+                    min="1"
+                    max="6"
+                    step="1"
+                    value="1"
                   />
                 </div>
 

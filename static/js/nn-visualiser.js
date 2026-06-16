@@ -2,17 +2,17 @@ const NNVisualiser = (() => {
   const config = {
     nodeRadius: 24,
     svgWidth: 700,
-    svgHeight: 300,
+    svgHeight: 360,
     svgPaddingX: 60,
-    svgPaddingY: 50,
+    svgPaddingY: 80,
     activationFn: (x) => 1 / (1 + Math.exp(-x)),
   };
 
-  let layers = [2, 3, 1];
+  let layers = [1, 3, 3, 1]; // controls the number of nodes in each layer and the number of layers in the network. format: [input, hidden1, hidden2, ..., output]
   let weights = [];
   let biases = [];
   let activations = [];
-  let inputs = [0.8, 0.5];
+  let inputs = [0.5]; // default input values, will be trimmed or extended based on num-inputs
 
   function randomWeight() {
     return parseFloat((Math.random() * 2 - 1).toFixed(3));
@@ -78,15 +78,16 @@ const NNVisualiser = (() => {
   }
 
   function activationToColor(a) {
-    const r = Math.round(30 + a * 200);
+    const r = Math.round(30 + a * 200); // colour transitions from rgb(30,100,200) to rgb(230,180,40) as activation goes from 0 to 1
     const g = Math.round(100 + a * 80);
     const b = Math.round(200 - a * 160);
     return `rgb(${r},${g},${b})`;
   }
 
   function weightToColor(w) {
-    if (w > 0) return `rgba(40,167,69,${Math.min(Math.abs(w), 1)})`;
-    return `rgba(220,53,69,${Math.min(Math.abs(w), 1)})`;
+    const alpha = 0.3 + Math.abs(w) * 0.7; // controls the minimum and maximum opacity where 0 is 0% opacity and 1 is 100% opacity
+    if (w > 0) return `rgba(40,167,69,${alpha.toFixed(2)})`; // change the RGB values to adjust the colour of positive weights
+    return `rgba(220,53,69,${alpha.toFixed(2)})`; // change the RGB values to adjust the colour of negative weights
   }
 
   function svgEl(tag) {
@@ -207,6 +208,8 @@ const NNVisualiser = (() => {
       for (let i = 0; i < layers[l + 1]; i++) {
         for (let j = 0; j < layers[l]; j++) {
           const w = weights[l][i][j];
+
+          // Visible line
           const line = svgEl("line");
           line.setAttribute("x1", positions[l][j].x);
           line.setAttribute("y1", positions[l][j].y);
@@ -214,8 +217,7 @@ const NNVisualiser = (() => {
           line.setAttribute("y2", positions[l + 1][i].y);
           line.setAttribute("stroke", weightToColor(w));
           line.setAttribute("stroke-width", Math.max(1, Math.abs(w) * 3));
-          line.setAttribute("cursor", "pointer");
-          // Data attributes for focus lookup
+          line.setAttribute("pointer-events", "none");
           line.setAttribute("data-layer", l);
           line.setAttribute("data-from", j);
           line.setAttribute("data-to", i);
@@ -223,12 +225,23 @@ const NNVisualiser = (() => {
           const title = svgEl("title");
           title.textContent = `w = ${w.toFixed(4)}`;
           line.appendChild(title);
-          line.addEventListener("click", (e) => {
+          svg.appendChild(line);
+
+          // Invisible wide hit target on top
+          const hitLine = svgEl("line");
+          hitLine.setAttribute("x1", positions[l][j].x);
+          hitLine.setAttribute("y1", positions[l][j].y);
+          hitLine.setAttribute("x2", positions[l + 1][i].x);
+          hitLine.setAttribute("y2", positions[l + 1][i].y);
+          hitLine.setAttribute("stroke", "transparent");
+          hitLine.setAttribute("stroke-width", "12");
+          hitLine.setAttribute("cursor", "pointer");
+          hitLine.addEventListener("click", (e) => {
             e.stopPropagation();
             focusEdge(l, i, j);
             showWeightInfo(l, i, j);
           });
-          svg.appendChild(line);
+          svg.appendChild(hitLine);
         }
       }
     }
@@ -243,9 +256,10 @@ const NNVisualiser = (() => {
     ];
 
     for (let l = 0; l < layers.length; l++) {
+      // Layer label — pinned well above node area
       const label = svgEl("text");
       label.setAttribute("x", positions[l][0].x);
-      label.setAttribute("y", config.svgPaddingY / 2);
+      label.setAttribute("y", "20");
       label.setAttribute("text-anchor", "middle");
       label.setAttribute("font-size", "13");
       label.setAttribute("fill", "#adb5bd");
@@ -405,11 +419,13 @@ const NNVisualiser = (() => {
       document.getElementById("hidden-layers").value,
     );
     const hiddenNodes = parseInt(document.getElementById("hidden-nodes").value);
+    const numOutputs = parseInt(document.getElementById("num-outputs").value);
     document.getElementById("num-inputs-val").textContent = numInputs;
     document.getElementById("hidden-layers-val").textContent = hiddenLayers;
     document.getElementById("hidden-nodes-val").textContent = hiddenNodes;
+    document.getElementById("num-outputs-val").textContent = numOutputs;
 
-    layers = [numInputs, ...Array(hiddenLayers).fill(hiddenNodes), 1];
+    layers = [numInputs, ...Array(hiddenLayers).fill(hiddenNodes), numOutputs];
     buildInputSliders(numInputs);
     initNetwork();
     render();
@@ -439,6 +455,9 @@ const NNVisualiser = (() => {
       .addEventListener("input", updateShape);
     document
       .getElementById("hidden-nodes")
+      .addEventListener("input", updateShape);
+    document
+      .getElementById("num-outputs")
       .addEventListener("input", updateShape);
 
     document.getElementById("btn-randomise").addEventListener("click", () => {
