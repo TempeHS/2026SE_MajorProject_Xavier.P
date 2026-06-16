@@ -73,6 +73,6 @@ Maths of Neural Nets Explained (MoNNE) is a PWA designed to teach students the m
 |                |          |
 |                |          |-->
 
-Current Sprint: 1
+Current Sprint: 2
 
 ## Usage
