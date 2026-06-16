@@ -1,4 +1,4 @@
-# Secure Flask Bootstrap PWA Template
+<!--# Secure Flask Bootstrap PWA Template
 
 This Flask template has been built from the ground up to be a secure Progressive Web App. It includes a secure form and Bootstrap sample components ready to be connected to a SQLite3 database. All minimum PWA standards have been integrated, and placeholder images have been provided for all the icon and image components.
 
@@ -55,3 +55,24 @@ This Flask template has been built from the ground up to be a secure Progressive
 
 > [!TIP]
 > Developers should [monitor Bootstrap 5.3.3 for discovered vulnerabilities](https://security.snyk.io/package/npm/bootstrap) and patch or update as needed.
+-->
+
+# README
+
+## Description
+
+Maths of Neural Nets Explained (MoNNE) is a PWA designed to teach students the maths behind neural nets in an intuitive, accessible and interactive way.
+
+## Status
+
+<!--| 1              | 2        |
+| -------------- | -------- |
+| Current Sprint | Sprint 1 |
+|                |          |
+|                |          |
+|                |          |
+|                |          |-->
+
+Current Sprint: 1
+
+## Usage

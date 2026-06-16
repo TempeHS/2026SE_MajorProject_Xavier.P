@@ -62,12 +62,32 @@ def index():
     return render_template("/index.html")
 
 
-@app.route("/privacy.html", methods=["GET"])
+# privacy
+@app.route("/privacy", methods=["GET"])
 def privacy():
     return render_template("/privacy.html")
 
 
+# about
+@app.route("/about", methods=["GET"])
+def about():
+    return render_template("/about.html")
+
+
+# contact
+@app.route("/contact", methods=["GET"])
+def contact():
+    return render_template("/contact.html")
+
+
+# ToS
+@app.route("/tos", methods=["GET"])
+def tos():
+    return render_template("/tos.html")
+
+
 # example CSRF protected form
+# will remove if not needed
 @app.route("/form.html", methods=["POST", "GET"])
 def form():
     if request.method == "POST":

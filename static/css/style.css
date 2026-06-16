@@ -1,13 +1,17 @@
-*   {
-
+* {
 }
 body {
-
 }
 .container {
-
 }
 
 .row {
-    
+}
+
+.display-1 {
+  text-align: center;
+}
+
+small {
+  text-align: center;
 }
