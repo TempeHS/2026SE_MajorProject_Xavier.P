@@ -96,14 +96,13 @@ const NNVisualiser = (() => {
 
   function buildInputSliders(count) {
     const container = document.getElementById("input-sliders");
-    container.innerHTML = "";
-    // Trim or extend inputs array to match count
     while (inputs.length < count)
       inputs.push(parseFloat(Math.random().toFixed(2)));
     inputs = inputs.slice(0, count);
 
+    let html = "";
     for (let i = 0; i < count; i++) {
-      container.innerHTML += `
+      html += `
         <label class="form-label d-flex justify-content-between">
           Input ${i + 1} <code id="input-${i}-val">${inputs[i].toFixed(2)}</code>
         </label>
@@ -111,8 +110,8 @@ const NNVisualiser = (() => {
           min="0" max="1" step="0.01" value="${inputs[i]}" />
       `;
     }
+    container.innerHTML = html;
 
-    // Re-attach listeners for each input slider
     for (let i = 0; i < count; i++) {
       document
         .getElementById(`input-${i}`)
@@ -364,9 +363,9 @@ const NNVisualiser = (() => {
         </div>
         <div class="col-12 col-lg-5">
           <p class="text-muted small mb-1 fw-semibold">Step 2 &mdash; Activation &sigma;(z)</p>
-          <div class="p-2 rounded bg-body-secondary h-100">
-            <code class="d-block">&sigma;(${z.toFixed(4)})</code>
-            <code class="d-block">= 1 / (1 + e<sup>${(-z).toFixed(4)}</sup>)</code>
+          <div class="p-2 rounded bg-body-secondary">
+            <code class="d-block text-break">&sigma;(${z.toFixed(4)})</code>
+            <code class="d-block text-break">= 1 / (1 + e<sup>${(-z).toFixed(4)}</sup>)</code>
             <code class="d-block fw-bold fs-5 mt-1">${a.toFixed(4)}</code>
           </div>
         </div>
@@ -443,6 +442,7 @@ const NNVisualiser = (() => {
   }
 
   function init() {
+    if (!document.getElementById("nn-svg")) return; // page has no visualiser
     initNetwork();
     buildInputSliders(inputs.length);
     render();
