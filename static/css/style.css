@@ -1,7 +1,9 @@
 * {
 }
+
 body {
 }
+
 .container {
 }
 
@@ -14,4 +16,24 @@ body {
 
 small {
   text-align: center;
+}
+
+/* Neural Network Visualiser */
+#nn-svg circle,
+#nn-svg line {
+  transition:
+    opacity 0.2s ease,
+    filter 0.15s ease;
+}
+
+#nn-svg circle:hover {
+  filter: brightness(1.3) drop-shadow(0 0 6px rgba(255, 255, 255, 0.5));
+}
+
+#nn-svg line:hover {
+  filter: brightness(1.5);
+}
+
+#nn-info-panel code {
+  word-break: break-all;
 }

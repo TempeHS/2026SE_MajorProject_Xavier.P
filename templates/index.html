@@ -11,17 +11,171 @@
   <hr />
   <div class="row">
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+      Maths of Neural Networks Explained (MoNNE) is a tool designed to help
+      students understand the maths behind neural networks. Please see the
+      <a href="/about">about</a> page for more information.
     </p>
   </div>
   <div class="row justify-content-center">
-    <button type="button" class="btn btn-primary w-auto">Launch demo</button>
+    <button
+      type="button"
+      class="btn btn-primary w-auto"
+      data-bs-toggle="modal"
+      data-bs-target="#nnModal"
+    >
+      Launch demo
+    </button>
+  </div>
+
+  <div
+    class="modal fade"
+    id="nnModal"
+    tabindex="-1"
+    aria-labelledby="nnModalLabel"
+    aria-hidden="true"
+  >
+    <div
+      class="modal-dialog modal-fullscreen-md-down modal-xl modal-dialog-scrollable"
+    >
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="nnModalLabel">
+            Neural Network Visualiser
+          </h1>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+
+        <div class="modal-body p-0 overflow-y-auto">
+          <!-- SVG canvas -->
+          <div class="bg-body-secondary p-2" style="overflow-x: auto">
+            <svg
+              id="nn-svg"
+              class="d-block mx-auto"
+              style="width: 100%; height: 300px"
+            ></svg>
+          </div>
+
+          <div class="container-fluid py-3 px-4">
+            <div class="row g-4">
+              <!-- Left column: network shape + inputs -->
+              <div class="col-12 col-md-4">
+                <h6 class="fw-semibold">Inputs</h6>
+                <div id="input-sliders"></div>
+
+                <hr class="my-2" />
+
+                <h6 class="fw-semibold">Network Shape</h6>
+                <div class="mb-2">
+                  <label class="form-label d-flex justify-content-between">
+                    Inputs <code id="num-inputs-val">1</code>
+                  </label>
+                  <input
+                    type="range"
+                    class="form-range"
+                    id="num-inputs"
+                    min="1"
+                    max="6"
+                    step="1"
+                    value="1"
+                  />
+                </div>
+                <div class="mb-2">
+                  <label class="form-label d-flex justify-content-between">
+                    Outputs <code id="num-outputs-val">1</code>
+                  </label>
+                  <input
+                    type="range"
+                    class="form-range"
+                    id="num-outputs"
+                    min="1"
+                    max="6"
+                    step="1"
+                    value="1"
+                  />
+                </div>
+                <div class="mb-2">
+                  <label class="form-label d-flex justify-content-between">
+                    Hidden layers <code id="hidden-layers-val">2</code>
+                  </label>
+                  <input
+                    type="range"
+                    class="form-range"
+                    id="hidden-layers"
+                    min="1"
+                    max="4"
+                    step="1"
+                    value="2"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label d-flex justify-content-between">
+                    Nodes per hidden layer <code id="hidden-nodes-val">3</code>
+                  </label>
+                  <input
+                    type="range"
+                    class="form-range"
+                    id="hidden-nodes"
+                    min="1"
+                    max="6"
+                    step="1"
+                    value="3"
+                  />
+                </div>
+
+                <button
+                  id="btn-randomise"
+                  class="btn btn-outline-secondary btn-sm w-100 mt-2"
+                >
+                  Randomise Weights
+                </button>
+              </div>
+
+              <!-- Right column: inspector -->
+              <div class="col-12 col-md-8">
+                <h6 class="fw-semibold">Maths Inspector</h6>
+                <div
+                  id="nn-info-panel"
+                  class="p-3 rounded border bg-body"
+                  style="min-height: 110px; font-size: 0.875rem"
+                >
+                  <span class="text-muted"
+                    >Click a node or edge to inspect the maths.</span
+                  >
+                </div>
+                <div class="mt-2 d-flex flex-wrap gap-3">
+                  <small class="text-muted">
+                    <strong>Activation:</strong> &sigma;(z) = 1 / (1 +
+                    e<sup>&minus;z</sup>)
+                  </small>
+                  <small class="text-muted">
+                    <span class="badge text-bg-success">+</span> positive weight
+                    <span class="badge text-bg-danger ms-1">-</span> negative
+                    weight
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+
+<script src="/static/js/nn-visualiser.js"></script>
 {% endblock %}
