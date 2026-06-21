@@ -61,7 +61,7 @@ This Flask template has been built from the ground up to be a secure Progressive
 
 ## Description
 
-Maths of Neural Nets Explained (MoNNE) is a PWA designed to teach students the maths behind neural nets in an intuitive, accessible and interactive way.
+Maths of Neural Nets Explained (MoNNE) is a tool designed to teach students the maths behind neural nets in an intuitive, accessible and interactive way.
 
 ## Status
 
@@ -76,3 +76,5 @@ Maths of Neural Nets Explained (MoNNE) is a PWA designed to teach students the m
 Current Sprint: 2
 
 ## Usage
+
+WIP
